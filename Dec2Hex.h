@@ -11,13 +11,12 @@ class Transfer
 
     string Dec_to_Hex(int i);
 
-    string Hex_to_Dec(int i);
+    int Hex_to_Dec(string i);
 
     private:
 
     char judge1(int i);
-
-   
+    int judge2(char i);
     
 };
 #endif
